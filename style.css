@@ -1,1 +1,169 @@
+ body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: black;
+            background-color: #262C36;
+            display: block;
+        }
 
+        *{
+            padding: 0px;
+            border: 0px;
+        }
+
+        .header{
+            margin-top: -5px;
+            display: flex;
+            background-color: #1F1F1F;
+            padding: 0px;
+            position: sticky;
+            top: 0;              /* Sets it to stick at the top of the viewport */
+            background-color: #333;
+            z-index: 1000;
+            background-color: transparent;
+            width: 100%;
+          
+          }
+
+
+          .navbar ul{
+            display: flex;
+            margin-left: 1000px;
+           
+            
+          }
+        
+          .nav-img{
+            align-content: center;
+          }
+        
+          .navbar ul li a{
+            text-decoration: none;
+            color:#f9004d;
+            
+            
+          }
+        
+          .navbar ul li{
+            margin: 30px;
+            list-style: none;
+          
+          }
+        
+          .navbar ul li a:hover{
+            color: aqua;
+        
+          } 
+
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .container h1{
+            color: #f9004d;
+            font-size: 32px;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 50%;
+            background-color: #ddd;
+            object-fit: cover;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .section1 {
+            margin-top: 50px;
+            display: flex;
+            
+        }
+
+        .section1 ul{
+            margin-left: 600px;
+           
+        }
+
+        .section2{
+            margin-top: 20px;
+            display: flex;
+
+        }
+
+        .sectionz{
+            margin-top: 20px;
+            display: flex;
+            margin-left: 550px;
+        }
+
+        .section2 h3{
+            margin-left: 400px;
+
+        }
+
+        .experience{
+            display: block;
+        }
+        .experience h3{
+            margin-left: 400px;
+
+        }
+
+        .experience2{
+            display: block;
+            margin-left: 120px;
+
+        }
+
+        .experience2 h3{
+            margin-left: 550px;
+            
+
+        }
+
+        .skill-section{
+            display: flex;
+            margin-top: 60px;
+        }
+
+        .skill-table{
+            margin-left: 800px;
+            
+        }
+
+        .skill-table th,td{
+        border: 0.5px solid rgb(147, 144, 140);
+        padding: 10px;
+        }
+
+        .skills-table th {
+            
+            font-weight: bold;
+        }
+
+        .edu-section{
+            display: flex;
+            margin-top: 60px;
+        }
+
+        .edu-details{
+            margin-left: 750px;
+        }
+
+        .additional-section{
+            display: flex;
+            margin-top: 60px;
+        }
+
+        .additional-courses{
+            margin-left: 650px;
+        }
+
+        span{
+            color: aqua;
+        }
